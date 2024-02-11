@@ -6,7 +6,7 @@ document.getElementById('noButton').addEventListener('mouseenter', function() {
     const newY = Math.random() * (viewportHeight - buttonRect.height);
     this.style.transform = 'translate(' + newX + 'px, ' + newY + 'px)';
   });
-  document.getElementById('noButton').addEventListener('onclick', function() {
+  document.getElementById('noButton').addEventListener('click', function() {
     const buttonRect = this.getBoundingClientRect();
     const viewportWidth = window.innerWidth;
     const viewportHeight = window.innerHeight;
